@@ -109,7 +109,7 @@ Module.directive('datePicker', ['datePickerConfig', 'datePickerUtils', function 
         }
 
         if(!nextView && attrs.autoClose === 'true'){
-          element.addClass('hidden');
+          element.hide();
         }
       };
 
